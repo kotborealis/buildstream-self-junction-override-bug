@@ -2,6 +2,8 @@
 
 Minimal BuildStream project that reproduces an option-scope bug in a self-junction override flow.
 
+✨ Fixed in [buildstream/pull/2114](https://github.com/apache/buildstream/pull/2114), awaiting for PyPi release.
+
 ## What bug this reproduces
 
 When resolving `self_junction.bst:thing.bst`, BuildStream evaluates conditions from `thing.bst`
